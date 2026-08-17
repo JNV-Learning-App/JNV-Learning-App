@@ -2,7 +2,6 @@ from flask import Flask, render_template, request, redirect, url_for, session, j
 import sqlite3, random, hashlib
 from datetime import datetime
 
-:
 app = Flask(__name__, template_folder='.')
 app.secret_key = "CHANGE_THIS_SECRET_KEY"
 DB="jnv.db"
